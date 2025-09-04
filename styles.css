@@ -1,31 +1,40 @@
 h1 {
+  font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* modern, bold font */
+  font-weight: 700; /* bold for emphasis */
+  font-size: 60px; /* big enough to stand out */
+  color: #ff3b3b; /* bright red for attention */
   text-align: center;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7); /* subtle shadow for readability on image */
   margin: 0;
-  color:rgb(227, 222, 211);
+  letter-spacing: 1px; /* slight spacing for style */
 }
-h2 {
-  text-align: center;
-  margin: 0;
-  color:rgb(227, 222, 211);
+
+  .hero-text h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* clean, modern font */
+  font-weight: 500; /* medium weight for elegance */
+  font-size: 28px; /* adjust for visibility */
+  color: #d4e7ea; /* white text for contrast */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* makes it stand out on the image */
+  margin-top: 10px;
+  letter-spacing: 1px; /* subtle spacing for style */
 }
+
 body {
   margin: 0;
 }
 .hero {
-  background-image: url('https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png');
-  background-size: cover;       /* makes image cover the div */
-  background-position: center;  /* centers the image */
-  background-repeat: no-repeat;
-  height: 100vh;                /* adjust height as needed */
-  position: relative;
+  background-image: url("../images/foodie-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
 
 .hero-text {
   position: absolute;
-  top: 70%;
+  bottom: 20%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 32px;
+  transform: translateX(-50%);
   text-align: center;
+  color: rgb(8, 0, 0);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
 }
