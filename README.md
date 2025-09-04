@@ -9,7 +9,7 @@ This is my first multi page project where I practiced:
 - Adding a hero image and basic layout  
 
 ## 🚀 Live Demo
-👉 [Click here to view the website](https://Abhijeet0110.github.io/zomato-clone/)
+👉 [Click here to view the website](https://abhijeet0110.github.io/Zomato-Clone/)
 
 ## 📂 How to Run
 1. Clone this repository:
