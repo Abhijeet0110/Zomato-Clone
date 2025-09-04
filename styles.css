@@ -1,0 +1,31 @@
+h1 {
+  text-align: center;
+  margin: 0;
+  color:rgb(227, 222, 211);
+}
+h2 {
+  text-align: center;
+  margin: 0;
+  color:rgb(227, 222, 211);
+}
+body {
+  margin: 0;
+}
+.hero {
+  background-image: url('https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png');
+  background-size: cover;       /* makes image cover the div */
+  background-position: center;  /* centers the image */
+  background-repeat: no-repeat;
+  height: 100vh;                /* adjust height as needed */
+  position: relative;
+}
+
+.hero-text {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 32px;
+  text-align: center;
+}
